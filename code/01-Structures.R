@@ -1,3 +1,5 @@
+#Code edited by Juan Carlos De Orellana Sanchez
+
 ## 01-Structures.R
 # Code from 01-structures
 
@@ -24,6 +26,15 @@ factorial(round(2.0015) + 1)
 12 * 3
 36 - 6
 30 / 3
+
+p <- 10 + 2 # JC's edit
+q <- 12 * 3 # JC's edit
+r <- 36 - 6 # JC's edit
+s <- 30 / 3 # JC's edit
+
+values <- c(p,q,r,s)
+sum(values)
+
 # ---------
 
 # R objects
